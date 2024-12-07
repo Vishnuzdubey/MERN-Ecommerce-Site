@@ -133,7 +133,7 @@ const Navbar = () => {
                                 duration={500}
                                 onClick={homeHandler}
                             >
-                                SHOPCART
+                                ELITECART
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
@@ -214,7 +214,7 @@ const Navbar = () => {
                             >
                                 <LocalMallIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
 
-                                SHOPCART
+                                ELITECART
                             </NavLogo>
                         </Typography>
                     </HomeContainer>
@@ -380,7 +380,7 @@ const styles = {
             right: 14,
             width: 10,
             height: 10,
-            bgcolor: 'background.paper',
+            bgcolor: "#FFFFFF",
             transform: 'translateY(-50%) rotate(45deg)',
             zIndex: 0,
         },

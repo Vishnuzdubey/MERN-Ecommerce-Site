@@ -91,7 +91,7 @@ const Navbar = () => {
 
     return (
         <AppBar position="sticky">
-            <Container maxWidth="xl" sx={{ backgroundColor: "#4d1c9c" }}>
+            <Container maxWidth="xl" sx={{ backgroundColor: "#FFFFF " }}>
                 <Toolbar disableGutters>
 
                     {/* MOBILE */}
@@ -285,7 +285,7 @@ const Navbar = () => {
                                     aria-haspopup="true"
                                     aria-expanded={open ? 'true' : undefined}
                                 >
-                                    <Avatar sx={{ width: 32, height: 32, backgroundColor: "#8970dc" }}>
+                                    <Avatar sx={{ width: 32, height: 32, backgroundColor: "#d7f606 " }}>
                                         {String(currentUser.name).charAt(0)}
                                     </Avatar>
                                 </IconButton>
@@ -380,7 +380,7 @@ const styles = {
             right: 14,
             width: 10,
             height: 10,
-            bgcolor: "#FFFFFF",
+            bgcolor: "background.paper",
             transform: 'translateY(-50%) rotate(45deg)',
             zIndex: 0,
         },

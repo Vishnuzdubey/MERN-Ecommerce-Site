@@ -27,7 +27,7 @@ import {
 } from './userSlice';
 
 
-const REACT_APP_BASE_URL = "https://ecom-backend-aaqo.onrender.com/";
+const REACT_APP_BASE_URL = "https://ecom-backend-aaqo.onrender.com";
 export const authUser = (fields, role, mode) => async (dispatch) => {
     
     dispatch(authRequest());
